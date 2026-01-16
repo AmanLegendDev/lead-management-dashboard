@@ -21,7 +21,7 @@ export default function LeadDetail() {
     <div className="min-h-screen bg-gray-950 text-white p-6">
       <div className="max-w-xl mx-auto bg-black border border-gray-900 p-6 rounded-xl space-y-4">
 
-        {/* Back Button */}
+       
         <button
           onClick={() => router.back()}
           className="text-sm text-gray-400 hover:underline"
@@ -29,10 +29,10 @@ export default function LeadDetail() {
           ← Back to dashboard
         </button>
 
-        {/* Name */}
+       
         <h1 className="text-2xl font-bold">{lead.name}</h1>
 
-        {/* Details */}
+       
         <div className="space-y-2 text-gray-300">
           <p><span className="text-gray-500">Email:</span> {lead.email}</p>
           <p><span className="text-gray-500">Phone:</span> {lead.phone}</p>

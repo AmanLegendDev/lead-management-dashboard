@@ -24,8 +24,8 @@ export async function GET(req) {
   const leads = await Lead.find(query).skip(skip).limit(limit);
   const total = await Lead.countDocuments(query);
   const totalLeads = await Lead.countDocuments();
-const converted = await Lead.countDocuments({ status: "converted" });
-const newLeads = await Lead.countDocuments({ status: "new" });
+  const converted = await Lead.countDocuments({ status: "converted" });
+  const newLeads = await Lead.countDocuments({ status: "new" });
 
 
  return Response.json({

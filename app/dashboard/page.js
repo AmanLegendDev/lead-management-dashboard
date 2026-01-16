@@ -29,7 +29,7 @@ export default function DashboardPage() {
 
   return (
     <div className="min-h-screen bg-gray-950 text-white p-6">
-      {/* Header */}
+      
       <div className="mb-6">
         <div className="flex justify-between m-4">
           <h1 className="text-3xl font-bold">Lead Management Dashboard</h1>
@@ -64,12 +64,11 @@ export default function DashboardPage() {
         </select>
       </div>
 
-      {/* Table */}
       <div className="bg-black border border-gray-900 rounded-xl p-4">
         <LeadTable leads={leads} />
       </div>
 
-      {/* Pagination */}
+
       <div className="flex justify-between items-center mt-6">
         <button
           onClick={() => setPage((p) => Math.max(p - 1, 1))}

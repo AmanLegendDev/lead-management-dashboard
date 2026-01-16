@@ -6,7 +6,7 @@ export async function GET(req, { params }) {
   try {
     await connectDB();
 
-    const { id } = await params; // 🔥 IMPORTANT FIX
+    const { id } = await params; 
 
     const lead = await Lead.findById(id);
 
