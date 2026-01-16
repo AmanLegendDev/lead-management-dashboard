@@ -18,6 +18,12 @@ Mini CRM-style full-stack dashboard built as part of hiring assignment.
 - Tailwind CSS
 - Faker.js (dummy data)
 
+
+## Live Demo 
+(https://lead-management-dashboard-ten.vercel.app/)
+
+
+
 ## Demo Credentials
 Email: admin@test.com  
 Password: 123456
